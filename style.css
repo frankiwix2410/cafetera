@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+.container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    background-color: #f8f8f8;
+}
+.tanque {
+    width: 100px;
+    height: 200px;
+    border: 2px solid #333;
+    margin: 20px auto;
+    position: relative;
+    background-color: #ddd;
+    overflow: hidden;
+}
+.agua {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: #3498db;
+    transition: height 0.5s ease;
+}
+button {
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+#status {
+    font-weight: bold;
+    margin-top: 15px;
+}
