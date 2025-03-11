@@ -12,7 +12,7 @@ function cafetera(aguaInicial) {
             if (agua >= 200) {
                 agua -= 200;
                 actualizarTanque();
-                document.getElementById('status').innerText = `☕ Café servido. Agua restante: ${agua}ml`;
+                document.getElementById('status').innerText = `☕ Café servido.`;
             } else {
                 document.getElementById('status').innerText = "⚠️ No hay suficiente agua para hacer café.";
             }
